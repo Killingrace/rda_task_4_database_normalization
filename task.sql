@@ -45,6 +45,6 @@ INSERT INTO Product (Name)
     VALUES ('Product-1'), ('Product-2');
 
 INSERT INTO ProductInventory (WarehouseID, ProductID, Amount)
-    VALUES (1, 1, 2), (1, 1, 2);
+    VALUES (1, 1, 2), (2, 2, 5);
 
 
