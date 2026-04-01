@@ -1,7 +1,10 @@
-DROP DATABASE IF EXISTS ShopDB; --Dropping Database if database exists
-CREATE DATABASE ShopDB; --Recreating Database 
+DROP DATABASE IF EXISTS ShopDB; 
+--Dropping Database if database exists
+CREATE DATABASE ShopDB;
+--Recreating Database 
 
-USE ShopDB; --using just created database
+USE ShopDB;
+--using just created database
 
 Create Table Countries (
     ID INT AUTO_INCREMENT,
@@ -45,6 +48,7 @@ INSERT INTO Product (Name)
     VALUES ('Product-1'), ('Product-2');
 
 INSERT INTO ProductInventory (WarehouseID, ProductID, Amount)
-    VALUES (1, 1, 2), (2, 2, 5); --creating 2 non identical records in Database
+    VALUES (1, 1, 2), (2, 2, 5); 
+--creating 2 non identical records in Database
 
 -- all suggestions have been realised into the script code
